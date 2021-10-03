@@ -7,7 +7,7 @@ import { RecoilRoot } from 'recoil';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/todolistClient">
       <RecoilRoot>
         <App />
       </RecoilRoot>

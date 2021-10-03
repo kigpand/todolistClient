@@ -25,6 +25,7 @@ const AppWrapper = styled.div`
     }
 `;
 function App() {
+
   return (
     <AppWrapper>
       <div className="background">
