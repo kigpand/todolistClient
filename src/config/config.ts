@@ -1,1 +1,1 @@
-export const url = process.env.NODE_ENV === 'production' ? 'http://localhost:3888' : 'http://localhost:3888';
+export const url = process.env.NODE_ENV === 'production' ? 'https://ji-todolistserver.herokuapp.com' : 'http://localhost:3888';
