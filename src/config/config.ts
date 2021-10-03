@@ -1,0 +1,1 @@
+export const url = process.env.NODE_ENV === 'production' ? 'https://kigpand.github.io/todolist-client/' : 'http://localhost:3888';
