@@ -34,7 +34,7 @@ const TodoListSub = ({ onLogOut }: Props) =>{
     return(
         <SubWrapper>
             <TodoListTime />
-            <TodoListWeather />
+            {/* <TodoListWeather /> */}
             <div className="btns">
                 <TodoListLogOutBtn onLogOut={onLogOut} />
                 <TodoListCalendar />
