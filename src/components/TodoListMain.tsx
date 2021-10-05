@@ -132,7 +132,7 @@ const TodoListMain = ({ onOpenDialog }: Props) =>{
         <MainWrapper>
             <div className="body">
                 <div className = "title">
-                    {todoList.date.getFullYear()}년 {todoList.date.getMonth()+1}월 {todoList.date.getDate()}일
+                    { todoList.date && <div>{todoList.date.getFullYear()}년 {todoList.date.getMonth()+1}월 {todoList.date.getDate()}일</div>}
                     <div className = "line" />
                 </div>
                 <div className="lists">
